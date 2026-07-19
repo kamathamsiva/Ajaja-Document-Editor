@@ -4,3 +4,11 @@
     "jsonwebtoken": "^9.0.3"
   }
 }
+
+{
+  "name": "backend",
+  "scripts": {
+    "start": "...",
+    "dev": "..."
+  }
+}
