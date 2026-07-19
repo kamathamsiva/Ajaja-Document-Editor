@@ -1,0 +1,118 @@
+/* =========================
+   Document Card
+========================= */
+
+.document-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+}
+
+.document-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.document-owner {
+  color: #6b7280;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.document-date {
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+/* =========================
+   Upload Component
+========================= */
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.file-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #ffffff;
+}
+
+.file-input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.upload-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.upload-btn:hover {
+  background: #1d4ed8;
+}
+
+/* =========================
+   Share Component
+========================= */
+
+.share-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.share-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #ffffff;
+}
+
+.share-select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.share-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.share-btn:hover {
+  background: #1d4ed8;
+}
